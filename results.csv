@@ -1,0 +1,4 @@
+Experiment,Model,KL_score,Status
+Baseline,Logistic Regression --> 1.1604,Completed
+Baseline,HistGradientBoosting --> 1.1217,Completed
+KNN --> Planned
