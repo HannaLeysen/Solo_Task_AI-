@@ -1,4 +1,9 @@
-Experiment,Model,KL_score,Status
-Baseline,Logistic Regression --> 1.1604,Completed
-Baseline,HistGradientBoosting --> 1.1217,Completed
-KNN --> Planned
+Experiment    Model                 -->      KL_score
+Baseline      Logistic Regression   -->      1.1604
+Baseline      HistGradientBoosting  -->      1.1217
+Exp_02        KNN (k=5)             -->      3.869420
+Exp_02        KNN (k=10)            -->      2.175459
+Exp_02        KNN (k=15)            -->      1.595505
+Exp_02        KNN (k=25)            -->      1.236155
+Exp_02        KNN (k=40)            -->      1.104220
+
