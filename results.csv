@@ -1,11 +1,43 @@
-Experiment    Model                 -->      KL_score
-Baseline      Logistic Regression   -->      1.1604
-Baseline      HistGradientBoosting  -->      1.1217
-Exp_02        KNN (k=5)             -->      3.869420
-Exp_02        KNN (k=10)            -->      2.175459
-Exp_02        KNN (k=15)            -->      1.595505
-Exp_02        KNN (k=25)            -->      1.236155
-Exp_02        KNN (k=40)            -->      1.104220   BEST 
+Experiment    Model                     -->      KL_score
+Baseline      Logistic Regression       -->      1.1604
+Baseline      HistGradientBoosting      -->      1.1217
+Exp_02        KNN (k=5)                 -->      3.869420
+Exp_02        KNN (k=10)                -->      2.175459
+Exp_02        KNN (k=15)                -->      1.595505
+Exp_02        KNN (k=25)                -->      1.236155
+Exp_02        KNN (k=40)                -->      1.104220   BEST 
+Exp_03        PCA (40 comp) KNN (k=40)  -->      1.103727
+Exp_03        PCA (60 comp) KNN (k=40)  -->      1.103983
+Exp_03        Geen PCA KNN (k=40)       -->      1.104220
+Exp_03        PCA (30 comp) KNN (k=40)  -->      1.105237
+Exp_03        PCA (20 comp) KNN (k=40)  -->      1.112487
+Exp_03        PCA (10 comp) KNN (k=40)  -->      1.131846
+Exp_03        PCA (30 comp) KNN (k=25)  -->      1.222337
+Exp_03        PCA (20 comp) KNN (k=25)  -->      1.228312
+Exp_03        Geen PCA KNN (k=25)       -->      1.236155
+Exp_03        PCA (60 comp) KNN (k=25)  -->      1.236576
+Exp_03        PCA (40 comp) KNN (k=25)  -->      1.237074
+Exp_03        PCA (10 comp) KNN (k=25)  -->      1.252586
+Exp_03        PCA (40 comp) KNN (k=15)  -->      1.578038
+Exp_03        PCA (60 comp) KNN (k=15)  -->      1.591110
+Exp_03        PCA (20 comp) KNN (k=15)  -->      1.592026
+Exp_03        Geen PCA KNN (k=15)       -->      1.595505
+Exp_03        PCA (30 comp) KNN (k=15)  -->      1.603401
+Exp_03        PCA (10 comp) KNN (k=15)  -->      1.665390
+Exp_03        PCA (20 comp) KNN (k=10)  -->      2.122168
+Exp_03        PCA (40 comp) KNN (k=10)  -->      2.131290
+Exp_03        PCA (30 comp) KNN (k=10)  -->      2.167751
+Exp_03        PCA (60 comp) KNN (k=10)  -->      2.168849
+Exp_03        Geen PCA KNN (k=10)       -->      2.175459
+Exp_03        PCA (10 comp) KNN (k=10)  -->      2.200327
+Exp_03        PCA (30 comp)  KNN (k=5)  -->      3.731007
+Exp_03        PCA (40 comp)  KNN (k=5)  -->      3.759844
+Exp_03        PCA (20 comp)  KNN (k=5)  -->      3.867681
+Exp_03        Geen PCA  KNN (k=5)       -->      3.869420
+Exp_03        PCA (60 comp)  KNN (k=5)  -->      3.870680
+Exp_03        PCA (10 comp)  KNN (k=5)  -->      3.963192
+
+
 
 
 wat kan ik nog proberen: 
