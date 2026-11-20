@@ -36,7 +36,10 @@ Exp_03        PCA (20 comp)  KNN (k=5)  -->      3.867681
 Exp_03        Geen PCA  KNN (k=5)       -->      3.869420
 Exp_03        PCA (60 comp)  KNN (k=5)  -->      3.870680
 Exp_03        PCA (10 comp)  KNN (k=5)  -->      3.963192
-
+Exp_04        LDA (shrinkage=0.1)       -->      1.178037
+Exp_04        LDA (shrinkage=0.3)       -->      1.191420
+Exp_04        LDA (shrinkage=0.5)       -->      1.239995
+Exp_04        LDA (shrinkage=0.0)       -->      1.245595
 
 
 
