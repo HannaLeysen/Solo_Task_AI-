@@ -7,3 +7,12 @@ Exp_02        KNN (k=15)            -->      1.595505
 Exp_02        KNN (k=25)            -->      1.236155
 Exp_02        KNN (k=40)            -->      1.104220
 
+
+wat kan ik nog proberen: 
+- SVM 
+- MLP
+- FDA/LDA  !!!
+- CNN (maar blijkbaar heel moeilijk)
+- Mixture of Gaussians (MoG)
+- PCA (enkel als preprocessing) !!! 
+- Decision Trees
