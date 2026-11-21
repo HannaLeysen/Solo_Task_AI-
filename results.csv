@@ -40,7 +40,10 @@ Exp_04        LDA (shrinkage=0.1)       -->      1.178037
 Exp_04        LDA (shrinkage=0.3)       -->      1.191420
 Exp_04        LDA (shrinkage=0.5)       -->      1.239995
 Exp_04        LDA (shrinkage=0.0)       -->      1.245595
-
+Exp_05        Newton (alpha=0.01) + Logistic Regression   -->      1.128949 
+Exp_05        Newton (alpha=0.001) + Logistic Regression  -->      1.165105 
+Exp_05        Newton (alpha=0.1) + Logistic Regression    -->      1.215033 
+Exp_05        Newton (alpha=1.0) + Logistic Regression    -->      1.415242 
 
 
 wat kan ik nog proberen: 
@@ -51,5 +54,5 @@ wat kan ik nog proberen:
 - Mixture of Gaussians (MoG)
 - PCA (enkel als preprocessing) !!!  (geprobeerd, was een beetje beter) 
 - Decision Trees
-- Newtons optimalisatiemodel bij Linear regression model testen 
+- Newtons optimalisatiemodel bij Linear regression model testen (geprobeerd ! geen betere KL-scores)
 
