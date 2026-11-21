@@ -45,9 +45,11 @@ Exp_04        LDA (shrinkage=0.0)       -->      1.245595
 
 wat kan ik nog proberen: 
 - SVM 
-- MLP
-- FDA/LDA  !!!
+- MLP model (hierbij kan SGD model als optimalisatiemodel) 
+- FDA/LDA  !!! (geprobeerd, maar was slechter)
 - CNN (maar blijkbaar heel moeilijk)
 - Mixture of Gaussians (MoG)
-- PCA (enkel als preprocessing) !!! 
+- PCA (enkel als preprocessing) !!!  (geprobeerd, was een beetje beter) 
 - Decision Trees
+- Newtons optimalisatiemodel bij Linear regression model testen 
+
