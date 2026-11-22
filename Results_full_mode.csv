@@ -1,25 +1,16 @@
-FULL MODE (N-folds = 3) 
+========== RESULTATEN BASELINE  -  FULL MODE (N-folds = 3) ==========
 Model         KL-score
        hgb    0.944638
     logreg    1.121932
-KNN (k=40)    1.130520
-KNN (k=25)    1.305620
-KNN (k=15)    1.689041
-KNN (k=10)    2.255554
- KNN (k=5)    3.941736
 
-FULL MODE (N-folds = 5) 
+
+========== RESULTATEN BASELINE  -  FULL MODE (N-folds = 5) ==========
  Model      KL-score
        hgb  0.936069
     logreg  1.112816
-KNN (k=40)  1.119302
-KNN (k=25)  1.304632
-KNN (k=15)  1.719939
-KNN (k=10)  2.293988
- KNN (k=5)  3.878317
 
-FULL MODE (N_folds=3) (andere hoeveelheid PCA componenten en K waarden) 
-========== RESULTATEN PCA + KNN ==========
+
+========== RESULTATEN PCA + KNN  -  FULL MODE (N_folds=3) ==========
 Model                             KL_score
 PCA (40 componenten) KNN (k=120)  1.039765
 PCA (40 componenten) KNN (k=200)  1.039940
@@ -186,6 +177,22 @@ PCA (20 componenten)   KNN (k=5)  3.983560
 PCA (10 componenten)   KNN (k=5)  4.061586
  PCA (5 componenten)   KNN (k=5)  4.151538
  PCA (3 componenten)   KNN (k=5)  4.632391
+
+========== MLP + SGD RESULTAAT - FULL MODE (N-folds=3) ==========
+Experiment        Model      Optimizer  KL_score 
+ MLP + SGD        MLP        SGD        0.962889 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
