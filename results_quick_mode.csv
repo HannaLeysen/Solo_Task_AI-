@@ -7,7 +7,7 @@ Exp_02        KNN (k=10)                -->      2.175459
 Exp_02        KNN (k=15)                -->      1.595505
 Exp_02        KNN (k=25)                -->      1.236155
 Exp_02        KNN (k=40)                -->      1.104220   
-Exp_03        PCA (40 comp) KNN (k=40)  -->      1.103727    BEST
+Exp_03        PCA (40 comp) KNN (k=40)  -->      1.103727    
 Exp_03        PCA (60 comp) KNN (k=40)  -->      1.103983
 Exp_03        Geen PCA KNN (k=40)       -->      1.104220
 Exp_03        PCA (30 comp) KNN (k=40)  -->      1.105237
@@ -46,6 +46,7 @@ Exp_05        Newton (alpha=0.001) + Logistic Regression  -->      1.165105
 Exp_05        Newton (alpha=0.1) + Logistic Regression    -->      1.215033 
 Exp_05        Newton (alpha=1.0) + Logistic Regression    -->      1.415242 
 Exp_06        MLP Multi-Layer Perceptron                  -->      1.159326 
+Exp_07        MLP + SDG                                   -->      1.068325  BEST
 
 wat kan ik nog proberen: 
 - SVM 
