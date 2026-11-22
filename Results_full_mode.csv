@@ -178,6 +178,10 @@ PCA (10 componenten)   KNN (k=5)  4.061586
  PCA (5 componenten)   KNN (k=5)  4.151538
  PCA (3 componenten)   KNN (k=5)  4.632391
 
+========== MLP RESULTAAT  -  FULL MODE (N-folds=3) ==========
+Experiment      Model                      KL_score    
+MLP             Multi-Layer Perceptron     0.989765 
+
 ========== MLP + SGD RESULTAAT - FULL MODE (N-folds=3) ==========
 Experiment        Model      Optimizer  KL_score 
  MLP + SGD        MLP        SGD        0.962889 
