@@ -1,3 +1,4 @@
+QUICK MODE 
 Experiment    Model                     -->      KL_score
 Baseline      Logistic Regression       -->      1.1604
 Baseline      HistGradientBoosting      -->      1.1217
