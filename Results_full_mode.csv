@@ -104,6 +104,90 @@ PCA (10 componenten)   KNN (k=5)  4.130416
 
 
 
+========== RESULTATEN PCA + KNN - FULL MODE (N_folds=5) ==========
+          Experiment       Model  KL_score
+PCA (30 componenten) KNN (k=120)  1.024653
+PCA (20 componenten) KNN (k=120)  1.024955
+PCA (60 componenten) KNN (k=120)  1.025572
+PCA (88 componenten) KNN (k=120)  1.025671
+PCA (80 componenten) KNN (k=120)  1.025671
+            Geen PCA KNN (k=120)  1.025672
+PCA (40 componenten) KNN (k=120)  1.026046
+PCA (20 componenten) KNN (k=200)  1.029689
+PCA (30 componenten) KNN (k=200)  1.029812
+PCA (40 componenten) KNN (k=200)  1.030318
+PCA (60 componenten) KNN (k=200)  1.030442
+            Geen PCA KNN (k=200)  1.030498
+PCA (88 componenten) KNN (k=200)  1.030498
+PCA (80 componenten) KNN (k=200)  1.030498
+PCA (60 componenten)  KNN (k=80)  1.036015
+PCA (40 componenten)  KNN (k=80)  1.036057
+            Geen PCA  KNN (k=80)  1.036289
+PCA (80 componenten)  KNN (k=80)  1.036292
+PCA (88 componenten)  KNN (k=80)  1.036292
+PCA (20 componenten)  KNN (k=80)  1.036552
+PCA (30 componenten)  KNN (k=80)  1.036991
+PCA (10 componenten) KNN (k=120)  1.040998
+PCA (10 componenten) KNN (k=200)  1.042073
+PCA (10 componenten)  KNN (k=80)  1.050334
+ PCA (5 componenten) KNN (k=200)  1.058991
+ PCA (5 componenten) KNN (k=120)  1.063206
+ PCA (5 componenten)  KNN (k=80)  1.078193
+PCA (30 componenten)  KNN (k=40)  1.112857
+PCA (20 componenten)  KNN (k=40)  1.116691
+PCA (40 componenten)  KNN (k=40)  1.117229
+            Geen PCA  KNN (k=40)  1.119302
+PCA (80 componenten)  KNN (k=40)  1.119302
+PCA (88 componenten)  KNN (k=40)  1.119302
+ PCA (3 componenten) KNN (k=200)  1.119607
+PCA (60 componenten)  KNN (k=40)  1.120151
+ PCA (3 componenten) KNN (k=120)  1.131680
+PCA (10 componenten)  KNN (k=40)  1.138625
+ PCA (3 componenten)  KNN (k=80)  1.149435
+ PCA (5 componenten)  KNN (k=40)  1.166983
+ PCA (3 componenten)  KNN (k=40)  1.235630
+PCA (40 componenten)  KNN (k=25)  1.292079
+PCA (20 componenten)  KNN (k=25)  1.297436
+PCA (30 componenten)  KNN (k=25)  1.299743
+PCA (60 componenten)  KNN (k=25)  1.303964
+            Geen PCA  KNN (k=25)  1.304632
+PCA (80 componenten)  KNN (k=25)  1.304633
+PCA (88 componenten)  KNN (k=25)  1.304633
+PCA (10 componenten)  KNN (k=25)  1.313786
+ PCA (5 componenten)  KNN (k=25)  1.347373
+ PCA (3 componenten)  KNN (k=25)  1.404604
+PCA (60 componenten)  KNN (k=15)  1.712835
+PCA (10 componenten)  KNN (k=15)  1.718168
+            Geen PCA  KNN (k=15)  1.719939
+PCA (80 componenten)  KNN (k=15)  1.719952
+PCA (88 componenten)  KNN (k=15)  1.719955
+PCA (40 componenten)  KNN (k=15)  1.721478
+PCA (20 componenten)  KNN (k=15)  1.731362
+PCA (30 componenten)  KNN (k=15)  1.732327
+ PCA (5 componenten)  KNN (k=15)  1.792494
+ PCA (3 componenten)  KNN (k=15)  1.902699
+PCA (60 componenten)  KNN (k=10)  2.288233
+            Geen PCA  KNN (k=10)  2.293988
+PCA (80 componenten)  KNN (k=10)  2.293994
+PCA (88 componenten)  KNN (k=10)  2.293994
+PCA (40 componenten)  KNN (k=10)  2.311675
+PCA (30 componenten)  KNN (k=10)  2.314769
+PCA (10 componenten)  KNN (k=10)  2.316840
+PCA (20 componenten)  KNN (k=10)  2.332473
+ PCA (5 componenten)  KNN (k=10)  2.385894
+ PCA (3 componenten)  KNN (k=10)  2.602522
+PCA (60 componenten)   KNN (k=5)  3.871959
+PCA (88 componenten)   KNN (k=5)  3.878332
+PCA (80 componenten)   KNN (k=5)  3.878332
+            Geen PCA   KNN (k=5)  3.878335
+PCA (40 componenten)   KNN (k=5)  3.884771
+PCA (30 componenten)   KNN (k=5)  3.926890
+PCA (20 componenten)   KNN (k=5)  3.983560
+PCA (10 componenten)   KNN (k=5)  4.061586
+ PCA (5 componenten)   KNN (k=5)  4.151538
+ PCA (3 componenten)   KNN (k=5)  4.632391
+
+
 
 
 Experiment    Model                     -->      KL_score
