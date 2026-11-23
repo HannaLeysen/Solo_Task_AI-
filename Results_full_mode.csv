@@ -195,7 +195,12 @@ Experiment                  Model Optimizer  KL_score    Status
  MLP + SGD Multi-Layer Perceptron       SGD  0.978022 Completed
 
 
-
+========== EINDRESULTAAT CNN  -  Full Mode  ==========
+Fold 1: 0.884372
+Fold 2: 0.801600
+Fold 3: 0.813866
+Gemiddelde foldscore: 0.8332792
+Totale OOF KL-score: 0.8332822
 
 
 
