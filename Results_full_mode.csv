@@ -190,9 +190,17 @@ MLP            Multi-Layer Perceptron      0.989765
 Experiment        Model      Optimizer     KL_score 
  MLP + SGD        MLP        SGD           0.962889 
 
-========== MLP + SGD RESULTAAT  -  FULL MODE (N-folds=5) ==========
-Experiment                  Model Optimizer  KL_score    Status
- MLP + SGD Multi-Layer Perceptron       SGD  0.978022 Completed
+========== MLP + SGD RESULTAAT - FULL MODE (N-folds=5) ==========
+Experiment        Model      Optimizer     KL_score 
+ MLP + SGD        MLP        SGD           0.978022  
+
+========== XGBoost RESULTAAT - FULL MODE (N-folds=3) ==========
+Experiment           KL_score 
+ XGBoost              0.92354
+
+========== XGBoost RESULTAAT - FULL MODE (N-folds=5) ==========
+Experiment           KL_score 
+ XGBoost              0.9147638754980308
 
 
 ========== EINDRESULTAAT CNN  -  Full Mode  ==========
