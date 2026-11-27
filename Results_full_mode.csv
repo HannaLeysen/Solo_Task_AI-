@@ -3,11 +3,40 @@ Model         KL-score
        hgb    0.944638
     logreg    1.121932
 
-
 ========== RESULTATEN BASELINE  -  FULL MODE (N-folds = 5) ==========
  Model      KL-score
        hgb  0.936069
     logreg  1.112816
+
+============= BASELINE SCORES NA OPTIMALISATIE  -  FULL MODE (N-folds = 5)  ====================
+- star
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1128 hgb=0.9361
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.1034 hgb=0.9065
+
+- mediaan toevoegen 
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1163 hgb=0.9330
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.1042 hgb=0.9017
+
+- maar 5min ipv 10min = SLECHTER --> terug naar 10min 
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1243 hgb=0.9319
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.1141 hgb=0.9086
+
+- Percentielen toevoegen 25 en 75
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1097 hgb=0.9307
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.0996 hgb=0.9011
+
+
+- interkwartielafstand toevoegen 
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1102 hgb=0.9209
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.1005 hgb=0.8921
+
+- Trend: stijging of daling doorheen het venster toevoegen 
+	CV KL (all EEGs)        prior=1.2559 logreg=1.1086 hgb=0.9168
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.0975 hgb=0.8865
+
+- Spectrale verhoudingen tussen frequentiebanden
+	CV KL (all EEGs)        prior=1.2559 logreg=1.0900 hgb=0.9163
+	CV KL (>=10 votes only) prior=1.2071 logreg=1.0865 hgb=0.8863
 
 
 ========== RESULTATEN PCA + KNN  -  FULL MODE (N_folds=3) ==========
