@@ -231,13 +231,12 @@ Experiment           KL_score
 Experiment           KL_score 
  XGBoost              0.9147638754980308
 
+========== XGBoost (met geoptimaliseerde baseline) RESULTAAT - FULL MODE (N-folds=5) ==========
+	Gemiddelde fold KL: 0.8972515543660835
+	Totale OOF KL: 0.8972543729975283
 
-========== EINDRESULTAAT CNN  -  Full Mode  ==========
-Fold 1: 0.884372
-Fold 2: 0.801600
-Fold 3: 0.813866
-Gemiddelde foldscore: 0.8332792
-Totale OOF KL-score: 0.8332822
+
+
 
 
    
